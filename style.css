@@ -1,0 +1,98 @@
+ 
+ 
+ /* bootstrap-customize-start */
+ a.nav-link {
+    padding-left: 60px !important;
+   color: white !important;
+   font-size: 25px;
+   font-weight: 400 !important;
+}
+a.navbar-brand {
+   color: white !important;
+   font-size: 40px;
+   margin-left: 20px !important;
+}
+
+ /* bootstrap-customize-end */
+
+ /* animation-text-style start */
+ .animation-text {
+    display: flex;
+    flex-direction: column;
+}
+/* nav-section-style-start */
+.top-section{
+   background: #33b144;
+}
+.my-text{
+  overflow: hidden;
+}
+/* nav-section-style-start */
+
+ /* animation-text-style start */
+
+ .razzak{
+    color: cadetblue;
+ }
+ #element{
+color:cadetblue ;
+ }
+ /* banner-section-style-start */
+ .banner-section{
+   background: #4f5f53;
+   color: white;
+ }
+ .animation-text {
+   padding: 30px;
+}
+.banner-image-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height:100%;
+   overflow: hidden;
+}
+img.raz {
+   width: 220px;
+   height: 220px;
+   border-radius: 50%;
+   border: 10px solid white;
+   box-shadow: 0px 0px 10px rgba(253, 251, 251, 0.5); /* Adjust the values as needed */
+}
+@keyframes fadeIn {
+   from {
+     opacity: 0;
+   }
+   to {
+     opacity: 1;
+   }
+ }
+ 
+ @keyframes fadeOut {
+   from {
+     opacity: 1;
+   }
+   to {
+     opacity: 0;
+   }
+ }
+ 
+ img.raz {
+   width: 220px;
+   height: 220px;
+   border-radius: 50%;
+   border: 2px solid hsla(0, 1%, 49%, 0.5);
+   box-shadow: rgba(2, 2, 2, 0.35) 0px 5px 15px;
+   animation-duration: 1s; /* Adjust animation duration as needed */
+   animation-fill-mode: forwards; /* Keeps the final state of the animation */
+ }
+ 
+ .fadeIn {
+   animation-name: fadeOut;
+ }
+ 
+ .fadeOut {
+   animation-name: fadeIn ;
+ }
+ 
+ /* banner-section-style-start */
